@@ -1,0 +1,7 @@
+services:
+  - name: backTechfob
+    buildCommand: mvn clean install
+    startCommand: java -jar target/backTechfob-0.0.1-SNAPSHOT.jar
+    env:
+      - key: JAVA_VERSION
+        value: 19
