@@ -1,5 +1,4 @@
-package com.unicomer.backTechfob.Auth;
-
+package com.unicomer.backTechfob.User;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -10,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class AuthResponse {
-    String token; 
+public class UserResponse {
+    String message;
 }

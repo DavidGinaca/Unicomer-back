@@ -1,4 +1,6 @@
-package com.unicomer.backTechfob.Config;
+package com.unicomer.backTechfob.Jwt;
+
+import java.io.IOException;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -8,12 +10,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-
-import com.unicomer.backTechfob.Jwt.JwtService;
-
-
-import java.io.IOException;
-
 import org.springframework.util.StringUtils;
 
 import jakarta.servlet.FilterChain;
